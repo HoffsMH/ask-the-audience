@@ -1,0 +1,20 @@
+{
+  "name": "ask-the-audience",
+  "version": "1.0.0",
+  "description": "ask the audience!",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoffsMH/ask-the-audience.git"
+  },
+  "author": "Matt H",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoffsMH/ask-the-audience/issues"
+  },
+  "homepage": "https://github.com/HoffsMH/ask-the-audience#readme"
+}
