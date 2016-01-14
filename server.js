@@ -5,12 +5,13 @@ const express = require('express');
 
 const app = express();
 
+app.use(express.static('public'));
+
 app.use(function(req, res, next){
   console.log("hi");
-  res.send({taco: "nowss"});
+  res.send({taco: "now"});
   next();
 });
-// app.use(express.static('public'));
 
 
 let server = http.createServer(app);
