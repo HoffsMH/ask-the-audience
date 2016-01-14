@@ -6,4 +6,4 @@ const app = express();
 
 app.use(express.static('public'));
 
-server.start(app);
+module.exports = server.start(app);
