@@ -7,7 +7,7 @@ const app = express();
 
 app.use(function(req, res, next){
   console.log("hi");
-  res.send({taco: "now"});
+  res.send({taco: "nowss"});
   next();
 });
 // app.use(express.static('public'));
