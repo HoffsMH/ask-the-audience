@@ -1,13 +1,26 @@
 <!doctype html>
 <html>
-  <head>
-    <title>Ask the Audience</title>
-  </head>
-  <body>
-    welcome.. to index.html
-    <div id="connection-count"></div>
-    <!-- Make sure your JS is at the bottom of the body! -->
-    <script src="/socket.io/socket.io.js"></script>
-    <script src="/client.js"></script>
-  </body>
+<head>
+  <title>Ask the Audience</title>
+</head>
+<body>
+  welcome.. to index.html
+  <div id="connection-count"></div>
+  <div id="status-message"></div>
+  <div id="choices">
+    <button>A</button>
+    <button>B</button>
+    <button>C</button>
+    <button>D</button>
+  </div>
+  <div>
+    <div class="votecount A">A: </div>
+    <div class="votecount B">B: </div>
+    <div class="votecount C">C: </div>
+    <div class="votecount D">D: </div>
+  </div>
+  <!-- Make sure your JS is at the bottom of the body! -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
+</body>
 </html>
